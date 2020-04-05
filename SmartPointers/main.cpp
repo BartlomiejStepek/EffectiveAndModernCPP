@@ -8,6 +8,8 @@
 
 int main()
 {
+    /* main to classes Matrix and PairOfMatrices */
+    
     Matrix m1;
     Matrix m2(3,4);
     Matrix m3({{1,2,3},{32, 23, 22},{3,234,23,44}});
@@ -38,6 +40,8 @@ int main()
     //p1 = p4;  // ERROR!
     p1 = std::move(p4);
 
+    /* main to the class String */
+    
     String s("hi");
     String t;
     const String r = s; // no copy
